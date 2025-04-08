@@ -15,7 +15,7 @@ RELEASE_BODY = "Automated release with timestamp."
 FILE_PATH = "home/isard/Escriptori/VictorRelease.zip"  # Update with your actual file path
 
 # GitHub API URL
-GITHUB_API_URL = f"https://github.com/vvillagramunoz/Random_C.git"
+GITHUB_API_URL = f"https://api.github.com/repos/{GITHUB_REPO}/releases"
 
 # Headers
 headers = {
